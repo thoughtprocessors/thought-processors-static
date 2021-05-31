@@ -1,0 +1,61 @@
+.parallax-container {
+    height: 450px;
+}
+
+.parallax img {
+    height: auto;
+    width: 100%;
+}
+
+.banner {
+    background: #000;
+
+    height: 100%;
+
+    position: relative;
+    width: auto;
+}
+
+#full-width {
+    background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .3), rgba(0, 0, 0, .7), rgba(0, 0, 0, 1)), url(../images/banner.jpg) no-repeat fixed center center;
+
+    background-size: cover;
+    height: 66.67%;
+
+    position: static;
+    width: 100%;
+}
+
+#full-width a {
+    color: #FF0;
+}
+
+.icon-small {
+    bottom: 20px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 45px;
+}
+
+.registerbtn {
+    background-color: #000;
+    border: solid #FFF 1.5px;
+    border-radius: 12px;
+    color: #FFF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    margin-top: 10px;
+    padding: 7px;
+    -moz-transition: background 0.225s ease-in, color .225s ease-out;
+    -ms-transition: background 0.225s ease-in, color .225s ease-out;
+    -o-transition: background 0.225s ease-in, color .225s ease-out;
+    -webkit-transition: background 0.225s ease-in, color .225s ease-out;
+    transition: background 0.225s ease-in, color .225s ease-out;
+}
+
+.registerbtn:hover {
+    background-color: #FFF;
+    color: #000;
+}

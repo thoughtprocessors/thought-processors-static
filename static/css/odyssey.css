@@ -1,0 +1,37 @@
+.banner {
+    background: #000;
+    min-height: 80vh;
+    /*height: 100vh !important;*/
+    position: relative;
+    width: auto;
+}
+
+.icon-small {
+    bottom: 30px;
+    color: #FFF;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 60px;
+}
+
+@media all and (max-width: 600px) {
+    .flex-container {
+        width: 80%;
+    }
+
+    .icon-small {
+        bottom: 30px;
+        color: #FFF;
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        width: 25px;
+    }
+
+    /*.banner {
+        height: calc(100vh - 72px) !important;
+    }*/
+}

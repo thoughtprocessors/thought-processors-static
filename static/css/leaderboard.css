@@ -1,0 +1,6 @@
+@media all and (min-width: 992px) {
+	table {
+		margin: 0 auto;
+		width: 80vw;
+	}
+}
